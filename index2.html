@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero-div">
+    <header class="header-container"> 
+        <img src="Logo.png" class="logo-img"/>
+        <nav class="navbar">
+            <ul class="list">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">Services</a></li>
+                <li><a href="#" class="nav-link">Testimonials</a></li>
+                <li><a href="#" class="nav-link">Contact us</a></li>  
+            </ul>
+        </nav>
+        </header>
+        <div class="divv-container">
+        <div>
+        <div class="hero-content2">
+            <h2>Oops! It looks like we took a wrong turn.</h2>
+            <p>Don't worry, our mechanics are on the job to get us back on track. In the mean time, feel free to check out our other services or contact us for assistance.</p>
+        </div>
+        <button class="btn-2" onClick="toPage1()">Back to Homepage</button>
+  <a href="#" class="report-link" onClick="openForm()">Report a problem</a>
+</div>
+  <div class="logo-404">
+  <img src="404 Image.png">
+</div>
+</div>
+  <form class= "report-form" id="report-form" required>
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="text" placeholder="Your email" required><br>
+    <textarea id="text-area" placeholder="Enter your text here" required></textarea>
+    <button class="btn-3" onClick="popupThankyou()">Submit</button>
+  </form>
+  <div class="Thank-you-container">
+    <img src="tick logo.jpg" class="tick-logo">
+    <h2>Thank you!</h2>
+    <p>Your report has successfully been submitted. We will get back to you shortly.</p>
+    <button class="btn-4" onClick="popOut()">ok</button>
+  </div>
+</div>
+<div class="about-section">
+<h3>MOBT AUTOMOBILE REPAIR</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</div>
+<footer id="foot-er">Copyright@Team2 2023</footer>
+</body>
+<script src="index.js"></script>
+</html>
