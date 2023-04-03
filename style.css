@@ -340,7 +340,19 @@ a:hover{
 }
 @media screen and (max-width: 320px) {
   .main__container{
-    height: 180vh;
+    height: 150vh;
+  }
+
+  .main__content h1 {
+    font-size:22px;
+    margin-top: 10px;
+
+  }
+
+
+  .main__content p {
+    margin-top: 2rem;
+    font-size: 0.5 rem;
   }
 }
 
